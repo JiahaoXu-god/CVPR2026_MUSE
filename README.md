@@ -53,12 +53,12 @@ This codebase is based on [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL) an
 ## Reference
 If you find our work useful in your research, please consider citing our paper at::
 ```
-@inproceedings{guo2025focus,
-  title={Focus: Knowledge-enhanced adaptive visual compression for few-shot whole slide image classification},
-  author={Guo, Zhengrui and Xiong, Conghao and Ma, Jiabo and Sun, Qichen and Feng, Lishuang and Wang, Jinzhuo and Chen, Hao},
-  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
-  pages={15590--15600},
-  year={2025}
+@inproceedings{xu2026muse,
+  title={MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification},
+  author={Xu, Jiahao and Huang, Sheng and Zhang, Xin and Nan, Zhixiong and Dong, Jiajun and Mu, Nankun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={33911--33921},
+  year={2026}
 }
 ```
 
