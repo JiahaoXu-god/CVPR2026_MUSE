@@ -59,7 +59,7 @@ Note the `data_folder_s` argument is only used for models that need dual-scale W
 This codebase is based on [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL) and [CLAM](https://github.com/mahmoodlab/CLAM). Many thanks to the authors of these great projects!
 
 ## Underlying Motivation
-- If you're interested in the authors' original and fundamental motivations, please follow our WeChat Official Account: `Bit Flow`.
+- If you're interested in the authors' original and fundamental motivations, please follow my WeChat Official Account: `Bit Flow`.
 
 ## Reference
 If you find our work useful in your research, please consider citing our paper at:
