@@ -24,7 +24,7 @@ This repository is based on the Pytorch version of MUSE implementation.
 We have provided the model implementation and training code, with detailed instructions shown as follows:
 
 ### 2.1 Dataset
-We've inlcuded three datasets in this study, *i.e.*, TCGA-NSCLC, CAMELYON, and UBC-OCEAN. Here provides the download link to each dataset:
+We've inlcuded three datasets in our study, *i.e.*, CAMELYON, TCGA-NSCLC and TCGA-BRCA. Below is a brief introduction to these datasets, along with instructions on how to download them:
 - TCGA-NSCLC: The TCGA-related subsets could be downloaded from [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/).
 - CAMELYON: We used both [CAMELYON16](https://camelyon16.grand-challenge.org/Data/) and [CAMELYON17](https://camelyon17.grand-challenge.org/Data/).
 - UBC-OCEAN: This dataset could be downloaded from [Kaggle](https://www.kaggle.com/competitions/UBC-OCEAN).
