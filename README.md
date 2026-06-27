@@ -29,7 +29,7 @@ We've inlcuded three datasets in our study, *i.e.*, CAMELYON, TCGA-NSCLC and TCG
 - TCGA-NSCLC: A prominent subset of The Cancer Genome Atlas (TCGA) dedicated to Non-Small Cell Lung Cancer. It comprises comprehensive multi-modal data, including Whole Slide Images (WSIs), genomic profiles, and clinical records, primarily covering **Lung Adenocarcinoma (LUAD)** and **Lung Squamous Cell Carcinoma (LUSC)**. It serves as a critical resource for cancer research, enabling tasks such as tumor subtyping, survival prediction, and molecular correlation analysis.
 - TCGA-BRCA: A comprehensive breast cancer dataset within The Cancer Genome Atlas (TCGA) containing over 1,000 samples. It provides extensive multi-omics data (including RNA-seq, DNA methylation, and mutations) alongside detailed clinical records. It serves as a foundational resource for breast cancer research, facilitating tasks such as molecular subtyping, biomarker discovery, and survival analysis.
 
-For the TCGA-related subsets, we utilized the Whole Slide Image (WSI) modality which can be downloaded from [NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/).
+For the TCGA-related subsets (TCGA-NSCLC and TCGA-BRCA), we utilized the **Whole Slide Image (WSI) modality** which can be downloaded from **[NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/)**.
 
 
 ### 2.2 Preprocessing
