@@ -32,6 +32,10 @@ We've inlcuded three datasets in our study, *i.e.*, CAMELYON, TCGA-NSCLC and TCG
 For the TCGA-related subsets (TCGA-NSCLC and TCGA-BRCA), we utilized the **Whole Slide Image (WSI) modality** which can be downloaded from **[NIH Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov/)**.
 
 
+### 2.2 Experimental Setup for Few-Shot WSI Classification
+
+
+
 ### 2.2 Preprocessing
 For WSI preprocessing, please refer to [CLAM](https://github.com/mahmoodlab/CLAM), where we set the patch size to 512 and magnification to 40X.
 
@@ -55,7 +59,7 @@ This codebase is based on [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL) an
 - If you're interested in the authors' original and fundamental motivations, please follow our WeChat Official Account: `Bit Flow`.
 
 ## Reference
-If you find our work useful in your research, please consider citing our paper at::
+If you find our work useful in your research, please consider citing our paper at:
 ```
 @inproceedings{xu2026muse,
   title={MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification},
