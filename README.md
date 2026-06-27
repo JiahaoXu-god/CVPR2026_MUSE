@@ -48,6 +48,9 @@ For dataset splitting under few-shot settings, please refer to [ViLa-MIL](https:
 
 After the preprocessing steps above, assume that we have divided the dataset into 10 folds (we've provided the splits of three datasets we used in this study in the `splits` folder).
 
+
+### 2.3 Knowledge Base Generation Pipeline
+
 ### 2.3 Training
 🌟 Before training the model, please download the `conch.pth` checkpoint from our provided [HuggingFace Repo](https://huggingface.co/datasets/david4real/FOCUS/tree/main). After downloading, put it under the `ckpts` folder.
 
