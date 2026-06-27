@@ -9,7 +9,7 @@ training. These dynamically selected texts serve as enriched semantic supervisio
 **Data Preparation:**
 
 **Citation:**
-
+Xu J, Huang S, Zhang X, et al. MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026: 33911-33921.
 
 
 
