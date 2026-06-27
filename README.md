@@ -65,12 +65,3 @@ If you find our work useful in your research, please consider citing our paper a
 
 
 
-
-**Data Preparation:**
-
-**Citation:**
-Xu J, Huang S, Zhang X, et al. MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2026: 33911-33921.
-
-
-
-
