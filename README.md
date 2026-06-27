@@ -2,7 +2,9 @@
 
 [[ArXiv]](https://arxiv.org/abs/2602.20873) [[CVPR Proceedings]](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MUSE_Harnessing_Precise_and_Diverse_Semantics_for_Few-Shot_Whole_Slide_CVPR_2026_paper.pdf)
 
-![Overview of MUSE](images/Overview.png)
+<div align="center">
+    <img src="images/Overview.png" alt="Overview of MUSE" style="zoom:50%" />
+</div>
 
 
 > **Abstract:**
@@ -19,7 +21,7 @@
 Please refer to [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL), [CLAM](https://github.com/mahmoodlab/CLAM), and [CONCH](https://github.com/mahmoodlab/CONCH).
 
 ## 2. Reproduce MUSE
-This repository is based on the Pytorch version of the FOCUS implementation.
+This repository is based on the Pytorch version of MUSE implementation.
 
 We have provided the model implementation and training code, with detailed instructions shown as follows:
 
