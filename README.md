@@ -33,7 +33,7 @@ For the TCGA-related subsets (TCGA-NSCLC and TCGA-BRCA), we utilized the **Whole
 
 
 ### 2.2 Experimental Setup for Few-Shot WSI Classification
-
+The experimental setup for Few-Shot WSI classification differs from conventional few-shot tasks. In brief, it involves using exactly n samples (n-shot) per class for training.
 
 
 ### 2.2 Preprocessing
