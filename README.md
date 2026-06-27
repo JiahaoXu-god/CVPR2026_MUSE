@@ -2,7 +2,7 @@
 
 [[ArXiv]](https://arxiv.org/abs/2602.20873) [[CVPR Proceedings]](https://openaccess.thecvf.com/content/CVPR2026/papers/Xu_MUSE_Harnessing_Precise_and_Diverse_Semantics_for_Few-Shot_Whole_Slide_CVPR_2026_paper.pdf)
 
-![Methodology of MUSE](images/Methodology.png)
+![Overview of MUSE](images/Overview.png)
 
 
 **Abstract:**
