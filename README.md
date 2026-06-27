@@ -16,7 +16,7 @@ training. These dynamically selected texts serve as enriched semantic supervisio
 ## 1. Environment Setup
 Please refer to [ViLa-MIL](https://github.com/Jiangbo-Shi/ViLa-MIL), [CLAM](https://github.com/mahmoodlab/CLAM), and [CONCH](https://github.com/mahmoodlab/CONCH).
 
-## 2. Reproduce FOCUS
+## 2. Reproduce MUSE
 This repository is based on the Pytorch version of the FOCUS implementation.
 
 We have provided the model implementation and training code, with detailed instructions shown as follows:
