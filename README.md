@@ -34,6 +34,8 @@ For the TCGA-related subsets (TCGA-NSCLC and TCGA-BRCA), we utilized the **Whole
 
 ### 2.2 Experimental Setup for Few-Shot WSI Classification
 The experimental setup for Few-Shot WSI classification differs from conventional few-shot tasks. In brief, it involves using exactly n samples (n-shot) per class for training.
+We partitioned the dataset into training, validation, and test sets according to a predefined ratio (referred to as a single data split). To reduce variance during evaluation, we performed 10 independent splits. For each split, n samples per class were randomly selected from the training set for training (i.e., 
+n -shot learning), and the model was evaluated on both the validation and test sets. Notably, the evaluation granularity differed between datasets: the CAMELYON was splited at the slide level, whereas for the TCGA, splits was conducted at the patient level to account for multiple Whole Slide Images (WSIs) per patient.
 
 
 ### 2.2 Preprocessing
