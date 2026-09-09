@@ -51,6 +51,8 @@ After the preprocessing steps above, assume that we have divided the dataset int
 
 
 ### 2.3 Knowledge Base Generation Pipeline
+In this work, we propose an LLM-driven pipeline for constructing a pathology knowledge base, enabling the low-cost generation of large-scale, diverse textual descriptions.
+![Knowledge Base Pipeline](images/Knowledge_base_pipeline.png)
 
 ### 2.3 Training
 🌟 Before training the model, please download the `conch.pth` checkpoint from our provided [HuggingFace Repo](https://huggingface.co/datasets/david4real/FOCUS/tree/main). After downloading, put it under the `ckpts` folder.
