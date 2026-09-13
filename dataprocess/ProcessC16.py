@@ -1,0 +1,66 @@
+import uuid
+import pandas as pd
+import argparse
+
+def process_c16_labels(dataset, label_path, save_csv_path, save_uuid_excel_path):
+    # 读取原始标签文件，无列名
+    df = pd.read_csv(label_path, header=None, names=['slide_id', 'label'])
+
+    # 映射标签为字符串
+    if dataset == 'camelyon_all':
+        label_mapping = {0: 'normal', 1: 'tumor'}
+    elif dataset == 'tcga_nsclc':
+        label_mapping = {0: 'LUAD',  1: 'LUSC'}
+    elif dataset == 'tcga_rcc':
+        label_mapping = {0: 'CCRCC', 1: 'PRCC', 2: 'CRCC'}
+    
+    if dataset == 'camelyon_all':
+        df['label'] = df['label'].map(label_mapping)
+
+    # 生成 case_id
+    df['case_id'] = ['patient_{}'.format(i) for i in range(len(df))]
+
+    # 保存为 ViLa-MIL 所需的 CSV 格式：case_id, slide_id, label
+    df_csv = df[['case_id', 'slide_id', 'label']]
+    df_csv.to_csv(save_csv_path, index=False)
+
+    # 生成 uuid
+    df['uuid'] = [str(uuid.uuid4()) for _ in range(len(df))]
+
+    # 保存为 Excel 文件：uuid, slide_id, label_str
+    df_uuid = df[['uuid', 'slide_id', 'label']]
+    df_uuid.to_excel(save_uuid_excel_path, index=False, header=False)
+
+# def process_c17_labels(
+#     label_path, 
+#     save_csv_path, 
+#     save_uuid_excel_path, 
+# ):
+    
+    
+
+
+def parse_option():
+    parser = argparse.ArgumentParser(description='generate the csv file which contains the uuid')
+    parser.add_argument('--dataset', type=str, default='camelyon_all', help='the dataset you want to process')
+    parser.add_argument('--original_csv_file', type=str, help='the original csv file')
+    parser.add_argument('--save_csv_path', type=str, help='case id, slide id and label')
+    parser.add_argument('--save_uuid_csv_path', type=str, help='uuid, slide id and label')
+    
+    return parser
+
+
+if __name__ == "__main__":
+    parser = parse_option()
+    args = parser.parse_args()
+    
+    setting = {
+        'dataset': args.dataset, 
+        'label_path': args.original_csv_file, 
+        'save_csv_path': args.save_csv_path, 
+        'save_uuid_excel_path': args.save_uuid_csv_path
+    }
+    
+    process_c16_labels(**setting)
+    
+    
