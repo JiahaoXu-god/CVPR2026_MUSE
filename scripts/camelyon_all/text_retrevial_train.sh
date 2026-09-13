@@ -1,0 +1,28 @@
+export CUDA_VISIBLE_DEVICES=0   
+python main.py \
+--device cuda:1 \
+--seed 1 \
+--drop_out \
+--early_stopping \
+--lr 1e-4 \
+--k 10 \
+--label_frac 1 \
+--bag_loss ce \
+--task 'task_camelyon_all_binary' \
+--results_dir 'results' \
+--exp_code 'camelyon_all_lh' \
+--model_type Text_retrevial \
+--mode transformer \
+--log_data \
+--data_root_dir '/data3/Public/CAMELYON_ALL/pt_files' \
+--data_folder_s 'conch' \
+--data_folder_l 'conch' \
+--split_dir 'camelyon_all/seed=1/splits10/16shots_10folds' \
+--text_prompt_path 'text_prompt/CAMELYON_two_scale_text_prompt.csv' \
+--prototype_number 16 \
+--csv_path '/data3/Public/CAMELYON_ALL/slide_name_file.csv' \
+--clip_model_type conch \
+--top_k_text_num 20 \
+--num_experts 8 \
+--num_selected 2 \
+--topk_ratio 0.2 \

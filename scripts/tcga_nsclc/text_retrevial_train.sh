@@ -1,0 +1,28 @@
+export CUDA_VISIBLE_DEVICES=2  
+python main.py \
+--device cuda:1 \
+--seed 1 \
+--drop_out \
+--early_stopping \
+--lr 1e-4 \
+--k 10 \
+--label_frac 1 \
+--bag_loss ce \
+--task 'task_tcga_lung_subtyping' \
+--results_dir 'results' \
+--exp_code 'tcga_nsclc_lh' \
+--model_type Text_retrevial \
+--mode transformer \
+--log_data \
+--data_root_dir '/data2/shihuazhan/dataset/tcga_nsclc/conch' \
+--data_folder_s 'pt_files' \
+--data_folder_l 'pt_files' \
+--split_dir 'tcga_nsclc/seed=1/splits10/16shots_10folds' \
+--text_prompt_path 'text_prompt/TCGA_Lung_two_scale_text_prompt.csv' \
+--prototype_number 16 \
+--csv_path '/data3/Public/TCGA_NSCLC/slide_name_file.csv' \
+--clip_model_type conch \
+--top_k_text_num 20 \
+--num_experts 8 \
+--num_selected 2 \
+--topk_ratio 0.2 \
